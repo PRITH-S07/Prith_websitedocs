@@ -72,6 +72,7 @@ h1, h2, p {
 .image img {
     position: relative; height: 400px; width: 500px;    
     border-radius: 8px;
+    float: right;
 }
 
 .dark-mode main {
