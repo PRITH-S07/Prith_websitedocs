@@ -58,7 +58,7 @@ h1, h2, p {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin: 0 20px; /* Adjusted margin for spacing */
+    margin: 0 40px; /* Adjusted margin for increased spacing */
 }
 
 .text, .image {
@@ -71,6 +71,8 @@ h1, h2, p {
 
 .image img {
     width: 100%;
+    height: 100%; /* Ensuring the image doesn't stretch */
+    object-fit: cover; /* Maintaining aspect ratio and covering the container */
     border-radius: 8px;
 }
 
