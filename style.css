@@ -51,6 +51,12 @@ h1, h2, p {
 
 .about-section {
     background-color: transparent;
+    text-align: center;
+}
+
+.centered-text {
+    flex: 1;
+    text-align: left;
 }
 
 .content {
@@ -58,19 +64,12 @@ h1, h2, p {
     flex-direction: column;
 }
 
-.text, .image, .clear, .text-below-image {
-    margin-bottom: 10px;
-}
-
-.text, .text-below-image {
-    flex: 1;
-}
-
-.image {
+.text-below-image {
     text-align: right;
+    margin-top: 10px;
 }
 
-img {
+.image img {
     width: 100%;
     border-radius: 8px;
 }
