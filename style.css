@@ -54,29 +54,27 @@ h1, h2, p {
     text-align: center;
 }
 
-.centered-text {
-    flex: 1;
-    text-align: left;
-}
-
 .content {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px; /* Adjusted margin for spacing */
+}
+
+.text, .text-below-image {
+    flex: 1;
+}
+
+.image img {
+    width: 100%;
+    border-radius: 8px;
 }
 
 .text-below-image {
     text-align: right;
-    margin-top: 10px;
-}
-
-.image img {
-    position: relative; height: 400px; width: 533px;    
-    border-radius: 8px;
-    float: right;
 }
 
 .dark-mode main {
     background-color: #2c3e50;
     color: #fff;
 }
-
