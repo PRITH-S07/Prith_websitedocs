@@ -62,7 +62,7 @@ h1, h2, p {
     display: flex;
     flex-direction: column; /* Set flex-direction to column */
     align-items: center;
-    /*justify-content: space-between;*/
+    justify-content: space-between;
     /*align-items: flex-start;*/
     
     margin: 20px 40px 0; /* Increased margin for more spacing */
