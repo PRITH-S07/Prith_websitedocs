@@ -58,7 +58,7 @@ h1, h2, p {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin: 20px 60px 0; /* Increased margin for more spacing */
+    margin: 20px 40px 0; /* Increased margin for more spacing */
 }
 
 .text, .image {
@@ -66,6 +66,7 @@ h1, h2, p {
 }
 
 .text {
+    flex: 1,
     text-align: left;
 }
 
