@@ -56,14 +56,17 @@ h1, h2, p {
 
 .content {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: space-between;
+    align-items: flex-start;
     margin: 0 20px; /* Adjusted margin for spacing */
 }
 
-.text, .text-below-image {
-    width: 100%;
-    text-align: center;
+.text, .image {
+    flex: 1;
+}
+
+.text {
+    text-align: left;
 }
 
 .image img {
@@ -71,13 +74,15 @@ h1, h2, p {
     border-radius: 8px;
 }
 
-.text-below-image {
+.caption {
     margin-top: 10px;
+    text-align: center;
 }
 
 .dark-mode main {
     background-color: #2c3e50;
     color: #fff;
 }
+
 
 
