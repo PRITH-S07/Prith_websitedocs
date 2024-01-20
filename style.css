@@ -57,7 +57,7 @@ h1, h2, p {
 .content {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     margin: 0 20px; /* Adjusted margin for spacing */
 }
 
@@ -71,7 +71,8 @@ h1, h2, p {
 }
 
 .text-below-image {
-    text-align: right;
+    text-align: center;
+    margin-top: 10px;
 }
 
 .dark-mode main {
