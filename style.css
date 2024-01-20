@@ -43,6 +43,10 @@ h1, h2, p {
     border-radius: 50%;
 }
 
+.logo-links img:hover {
+    filter: brightness(1.5); /* Adjust brightness on hover to highlight the logo */
+}
+
 .main {
     display: flex;
     justify-content: space-around;
